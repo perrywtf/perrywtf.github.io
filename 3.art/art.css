@@ -144,7 +144,8 @@ div#button3.fade {
 }
 
 #year1album {
-	margin: 900px;
+	height: 1000px;
+	width: 1000px;
 	display:none;
 }
 
