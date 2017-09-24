@@ -67,7 +67,7 @@ $(document).ready(function() {
 	});
 
 	$("#backbutton").click(function(e){    
-		$("#year2album, #backbutton").fadeOut("fast", function(){
+		$("#year2album, #backbutton").fadeOut("slow", function(){
 			$("#containalbums, #year2").fadeIn("slow");
 		});
 	});
@@ -81,7 +81,7 @@ $(document).ready(function() {
 	});
 
 	$("#backbutton").click(function(e){    
-		$("#year3album, #backbutton").fadeOut("fast", function(){
+		$("#year3album, #backbutton").fadeOut("slow", function(){
 			$("#containalbums, #year3").fadeIn("slow");
 		});
 	});
