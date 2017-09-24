@@ -2,14 +2,12 @@ body {
 	display: none;
 	overflow: hidden;
 	background-color: #000000;
+	background-image: url("../FLSTUDIO.png");
+	
+
 }
 
-img {
-    -webkit-backface-visibility: hidden; 
-    -ms-transform: translateZ(0); /* IE 9 */
-    -webkit-transform: translateZ(0); /* Chrome, Safari, Opera */
-    transform: translateZ(0);
-}
+
 
 /* START OF NAV BAR */
 
@@ -18,6 +16,7 @@ img {
   width: 60px;
   margin: 10px;
   padding: 10px;
+
   
 }
 
@@ -129,6 +128,7 @@ img {
 	height: 90%;
 	width: auto;
 	color: #ffffff;
+	text-shadow: 5px 5px 10px #000000;
 
 }
 
@@ -207,7 +207,7 @@ img {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: 250px;
-
+	box-shadow: 2px 2px 5px #666666;
 	
 }
 
@@ -231,6 +231,7 @@ img {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: 250px;
+	box-shadow: 2px 2px 5px #666666;
 	
 }
 
@@ -254,6 +255,7 @@ img {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: 250px;
+	box-shadow: 2px 2px 5px #666666;
 	
 }
 
