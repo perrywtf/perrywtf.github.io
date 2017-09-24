@@ -1,7 +1,8 @@
 body {
 	display:none;	
 	background-color: #000000;
-}	
+background-image: url("../FLSTUDIO.png");
+	}	
 
 img {
     -webkit-backface-visibility: hidden; 
@@ -46,6 +47,7 @@ img {
 	height: 90%;
 	width: auto;
 	color: #FFFFFF;
+	text-shadow: 5px 5px 10px #000000;
 
 }
 
