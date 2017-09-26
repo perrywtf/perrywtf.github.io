@@ -161,6 +161,15 @@ a {
 
 .musicbuttonimg {
 	margin: 10px;
+	opacity: 0.75;
+	transition: opacity 0.2 ease-out;
+	-moz-transition: opacity .2s ease-out;
+    -webkit-transition: opacity .2s ease-out;
+    -o-transition: opacity .2s ease-out;
+}
+
+.musicbuttonimg:hover {
+	opacity: 1;
 }
 
 #buttons1 {
