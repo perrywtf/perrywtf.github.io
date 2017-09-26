@@ -23,6 +23,7 @@ body {
 #navbutton {
   height: 50px;
   width: 50px;
+  cursor: pointer;
 }
 
 #button1 {

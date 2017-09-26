@@ -24,6 +24,7 @@ div#containnav {
 div#navbutton {
   height: 50px;
   width: 50px;
+  cursor: pointer;
 }
 
 div#button1 {
@@ -160,7 +161,8 @@ a {
 
 
 .musicbuttonimg {
-	margin: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
 	opacity: 0.75;
 	transition: opacity 0.2 ease-out;
 	-moz-transition: opacity .2s ease-out;
@@ -173,13 +175,12 @@ a {
 }
 
 #buttons1 {
-	position: absolute;
+	position: relative;
 	display: none;
-	top: 50%;
 	left: 0;
 	right: 0;
-	-webkit-transform: translate(0, -50%);
-	transform: translate(0, -50%);
+	bottom: 180px;
+	width: 300px;
 }
 
 

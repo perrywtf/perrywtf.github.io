@@ -1,26 +1,30 @@
 $(document).ready(function() {
 
+var button1 = document.getElementById("button1"); // Get div ID "button1".
+
+var unclickable = function(e) {	// Make Navigation Links unclickable when opacity is 0.
+	if ($(this).css('opacity')==0) e.preventDefault();
+	};	
+
+var navdefaultcursor = function(e) { // TESTING TO MAKE BUTTON CURSOR DEFAULT
+	if ($(this).css('opacity') == 0) {
+		$(this).css('cursor', 'default')
+	}
+};
+	
+
 // Start of Page fade in & fade out.
 	$("body").fadeIn(300);
 
-
 	$(".pagebutton").click(function(event) {
-
 		event.preventDefault();
-
 		newLocation = this.href;
-
 		$("body").fadeOut(500, newpage);
-
 	});
-
-	function newpage() {
-
-	window.location = newLocation;
-
-	};
 	
-// End of Page Fade.
+	function newpage() {
+	window.location = newLocation;
+	};
 
 // Start of Nav Button Highlight.
 	$(".navbuttonmain").click(function() {
@@ -30,20 +34,21 @@ $(document).ready(function() {
 			$(this).animate({opacity:1}, 0);
 		}
 	});
-//End of Nav Button Highlight.
+
 
 // Navigation Fade in and fade out.
-	var button1 = document.getElementById("button1"); 
-
-		document.getElementById("navbutton").onclick = function() {
-			button1.className = button1.className ? "" : "fade";
-			button2.className = button2.className ? "" : "fade";
-			button3.className = button3.className ? "" : "fade";
+	document.getElementById("navbutton").onclick = function() {
+		button1.className = button1.className ? "" : "fade";
+		button2.className = button2.className ? "" : "fade";
+		button3.className = button3.className ? "" : "fade";
 		}
 
-// End of Navigation Fade.		
-		
-		
+	$("#button1").click(unclickable);
+	$("#button2").click(unclickable);
+	$("#button3").click(unclickable);
+	
+	// $("#button1").mouseover(navdefaultcursor); TESTING TO MAKE BUTTON CURSOR DEFAULT
+
 //Start of Gallery Fade.	
 	
 	$(".yearbox1").click(function(e){    
@@ -89,7 +94,6 @@ $(document).ready(function() {
 
 // YEAR 3 END
 
-//End of Gallery Fade.
 	
 // MUSIC BUTTONS
 	
@@ -104,8 +108,6 @@ $( "#albumcontainer1" ).hover(function() {
 		$( "#buttons1" ).slideToggle( "slow", function() {
   });
 });
-  
-// END MUSIC BUTTONS
 	
 });
 
