@@ -44,9 +44,9 @@ $(document).ready(function() {
 // End of Navigation Fade.		
 		
 		
-//Start of Album Fade.	
+//Start of Gallery Fade.	
 	
-	$("#year1").click(function(e){    
+	$(".yearbox1").click(function(e){    
 		$("#containalbums, #year1").fadeOut("slow", function(){
 			$("#year1album, #backbutton").fadeIn("slow");
 		});
@@ -60,7 +60,7 @@ $(document).ready(function() {
 
 //YEAR 1 END
 
-	$("#year2").click(function(e){    
+	$(".yearbox2").click(function(e){    
 		$("#containalbums, #year2").fadeOut("slow", function(){
 			$("#year2album, #backbutton").fadeIn("slow");
 		});
@@ -74,7 +74,7 @@ $(document).ready(function() {
 
 // YEAR 2 END
 
-	$("#year3").click(function(e){    
+	$(".yearbox3").click(function(e){    
 		$("#containalbums, #year3").fadeOut("slow", function(){
 			$("#year3album, #backbutton").fadeIn("slow");
 		});
@@ -89,8 +89,23 @@ $(document).ready(function() {
 
 // YEAR 3 END
 
+//End of Gallery Fade.
+	
+// MUSIC BUTTONS
+	
+$("#albumcontainer1").hover(function(){
+    $("#interim").stop().animate({"opacity": "0.5"});
+},function(){
+    $("#interim").stop().animate({"opacity": "1"});
+});
 
-//End of Album Fade.
+
+$( "#albumcontainer1" ).hover(function() {
+		$( "#buttons1" ).slideToggle( "slow", function() {
+  });
+});
+  
+// END MUSIC BUTTONS
 	
 });
 

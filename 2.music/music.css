@@ -2,6 +2,7 @@ body {
 	display:none;
 	overflow-x: hidden;
 	background-color: #000000;
+	background-image: url("../bg.png");
 }
 
 img {
@@ -91,6 +92,10 @@ div#button3.fade {
 
 /*START OF CONTENT */
 
+a {
+	text-decoration: none;
+}
+
 #wrapper {
 	display: inline-flex;
 	position: absolute;
@@ -126,7 +131,8 @@ div#button3.fade {
 	margin: auto;
 	height: 90%;
 	width: auto;
-	color: #FFFFFF;
+	color: #ffffff;
+	text-shadow: 5px 5px 10px #000000;
 }
 
 #center {
@@ -139,15 +145,47 @@ div#button3.fade {
 	font-family: helvetica;
 }
 
-.player {
+/* ALBUM BUTTONS */
+
+#albumcontainer1 {
 	width: 300px;
 	height: 300px;
 	border: none;
 	float: left;
 	margin: 20px;
-	background-color: #FFFFCC;
+	background-color: #FFFFFF;
+	cursor: pointer;
 	
 }
+
+
+.musicbuttonimg {
+	margin: 10px;
+}
+
+#buttons1 {
+	position: absolute;
+	display: none;
+	top: 50%;
+	left: 0;
+	right: 0;
+	-webkit-transform: translate(0, -50%);
+	transform: translate(0, -50%);
+}
+
+
+#interim {
+	position: relative;
+	height: 300px;
+	width: 300px;
+	opacity: 1;
+}
+
+
+
+
+
+/* FOOTER */
 
 #footer {
 	display: inline-flex;
