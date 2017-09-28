@@ -88,8 +88,8 @@ var navcursor = function(event) { // TESTING TO MAKE BUTTON CURSOR DEFAULT
 		});
 	});
 
-		$("#year3album, #backbutton").fadeOut("fast", function(){
 	$("#backbutton").click(function(e){    
+		$("#year3album, #backbutton").fadeOut("fast", function(){
 			$("#containalbums, #year3").fadeIn("slow");
 		});
 	});
