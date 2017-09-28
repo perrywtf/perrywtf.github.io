@@ -121,12 +121,13 @@ a {
 #wrapper {
 	display: inline-flex;
 	position: absolute;
-	margin-left: 100px;
-	margin-right: 100px;
+	margin-left: 200px;
+	margin-right: 200px;
 	left: 0;
 	right: 0;
 	top: 0;
 	bottom: 0;
+	background-color: #FFFEF2;
 }
 
 #header {
@@ -154,10 +155,11 @@ a {
 	height: 90%;
 	width: auto;
 	color: #000000;
-	text-shadow: 5px 5px 10px #999999;
+	text-shadow: 2px 2px 5px #666666;
 
 }
 
+/* HOME PAGE */
 
 #buttons {
 	display: inline-flex;
@@ -245,6 +247,18 @@ a {
 	
 }
 
+#albumcontainer2 {
+	width: 300px;
+	height: 300px;
+	border: none;
+	float: left;
+	margin: 20px;
+	background-color: #ECECEC;
+	cursor: pointer;
+	box-shadow: 2px 2px 5px #666666;
+	
+}
+
 
 .musicbuttonimg {
 	margin-left: 10px;
@@ -269,6 +283,15 @@ a {
 	width: 300px;
 }
 
+#buttons2 {
+	position: relative;
+	display: none;
+	left: 0;
+	right: 0;
+	bottom: 180px;
+	width: 300px;
+}
+
 
 #interim {
 	position: relative;
@@ -278,18 +301,26 @@ a {
 
 }
 
+#fragments {
+	position: relative;
+	height: 300px;
+	width: 300px;
+	opacity: 1;
+
+}
 /* ART PAGE */
 
 #artwrapper {
 	display: inline-flex;
 	position: absolute;
-	margin-left: 100px;
-	margin-right: 100px;
+	margin-left: 200px;
+	margin-right: 200px;
 	left: 0;
 	right: 0;
 	top: 0;
 	bottom: 0;
 	overflow: hidden;
+	background-color: #FFFEF2;
 }
 
 #backbutton {

@@ -88,8 +88,8 @@ var navcursor = function(event) { // TESTING TO MAKE BUTTON CURSOR DEFAULT
 		});
 	});
 
-	$("#backbutton").click(function(e){    
 		$("#year3album, #backbutton").fadeOut("fast", function(){
+	$("#backbutton").click(function(e){    
 			$("#containalbums, #year3").fadeIn("slow");
 		});
 	});
@@ -109,6 +109,18 @@ $("#albumcontainer1").hover(function(){
 
 $( "#albumcontainer1" ).hover(function() {
 		$( "#buttons1" ).slideToggle( "fast", function() {
+  });
+});
+
+$("#albumcontainer2").hover(function(){
+    $("#fragments").stop().animate({"opacity": "0.5"});
+},function(){
+    $("#fragments").stop().animate({"opacity": "1"});
+});
+
+
+$( "#albumcontainer2" ).hover(function() {
+		$( "#buttons2" ).slideToggle( "fast", function() {
   });
 });
 	
