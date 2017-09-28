@@ -6,12 +6,12 @@ var unclickable = function(e) {	// Make Navigation Links unclickable when opacit
 	if ($(this).css('opacity')==0) e.preventDefault();
 	};	
 
-var navdefaultcursor = function(e) { // TESTING TO MAKE BUTTON CURSOR DEFAULT
-	if ($(this).css('opacity') == 0) {
-		$(this).css('cursor', 'default')
+var navcursor = function(event) { // TESTING TO MAKE BUTTON CURSOR DEFAULT
+	event.preventDefault();
+	if ($(".navlink").css('opacity') == 0) {
+			$(".navlink").css('cursor', 'default');
 	}
 };
-	
 
 // Start of Page fade in & fade out.
 	$("body").fadeIn(300);
@@ -34,6 +34,7 @@ var navdefaultcursor = function(e) { // TESTING TO MAKE BUTTON CURSOR DEFAULT
 			$(this).animate({opacity:1}, 0);
 		}
 	});
+
 
 
 // Navigation Fade in and fade out.
