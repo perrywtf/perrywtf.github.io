@@ -3,7 +3,8 @@
 body {
 	display:none;	
 	background-color: #F4F2FF;
-	}	
+	overflow-y: hidden;
+}	
 
 img {
     -webkit-backface-visibility: hidden; 
@@ -225,8 +226,9 @@ div#button3.fade {
 	border: none;
 	float: left;
 	margin: 20px;
-	background-color: #FFFFFF;
+	background-color: #D0CEDB;
 	cursor: pointer;
+	box-shadow: 2px 2px 5px #666666;
 	
 }
 
@@ -270,7 +272,7 @@ div#button3.fade {
 	margin: 20px;
 }
 
-/* GALLERIES */
+	/* ART-GALLERIES */
 
 #flickrembed {
 	float: left;
@@ -289,7 +291,7 @@ div#button3.fade {
 }
 
 
-/*BOXES */
+/* ART-BOXES */
 
 #year1album {
 	display:none;
@@ -326,7 +328,7 @@ div#button3.fade {
 	border: none;
 	float: left;
 	margin: 20px;
-	background-color: #ffffff;
+	background-color: #D0CEDB;
 	background-image: url("3.art/thumbnails/2015.png");
 	background-position: center;
 	background-repeat: no-repeat;
@@ -350,7 +352,7 @@ div#button3.fade {
 	border: none;
 	float: left;
 	margin: 20px;
-	background-color: #ffffff;
+	background-color: #D0CEDB;
 	background-image: url("3.art/thumbnails/2016.png");
 	background-position: center;
 	background-repeat: no-repeat;
@@ -374,7 +376,7 @@ div#button3.fade {
 	border: none;
 	float: left;
 	margin: 20px;
-	background-color: #ffffff;
+	background-color: #D0CEDB;
 	background-image: url("3.art/thumbnails/2017.png");
 	background-position: center;
 	background-repeat: no-repeat;
