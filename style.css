@@ -4,6 +4,7 @@ body {
 	display:none;	
 	background-color: #F4F2FF;
 	overflow-y: hidden;
+	resize: both;
 }	
 
 img {
@@ -226,7 +227,7 @@ div#button3.fade {
 	border: none;
 	float: left;
 	margin: 20px;
-	background-color: #D0CEDB;
+	background-color: #ECECEC;
 	cursor: pointer;
 	box-shadow: 2px 2px 5px #666666;
 	
@@ -262,6 +263,7 @@ div#button3.fade {
 	height: 300px;
 	width: 300px;
 	opacity: 1;
+
 }
 
 /* ART PAGE */
@@ -328,11 +330,11 @@ div#button3.fade {
 	border: none;
 	float: left;
 	margin: 20px;
-	background-color: #D0CEDB;
+	background-color: #ECECEC;
 	background-image: url("3.art/thumbnails/2015.png");
 	background-position: center;
 	background-repeat: no-repeat;
-	background-size: 250px;
+	background-size: 290px;
 	box-shadow: 2px 2px 5px #666666;
 	
 }
@@ -352,11 +354,11 @@ div#button3.fade {
 	border: none;
 	float: left;
 	margin: 20px;
-	background-color: #D0CEDB;
+	background-color: #ECECEC;
 	background-image: url("3.art/thumbnails/2016.png");
 	background-position: center;
 	background-repeat: no-repeat;
-	background-size: 250px;
+	background-size: 290px;
 	box-shadow: 2px 2px 5px #666666;
 	
 }
@@ -376,11 +378,11 @@ div#button3.fade {
 	border: none;
 	float: left;
 	margin: 20px;
-	background-color: #D0CEDB;
+	background-color: #ECECEC;
 	background-image: url("3.art/thumbnails/2017.png");
 	background-position: center;
 	background-repeat: no-repeat;
-	background-size: 250px;
+	background-size: 290px;
 	box-shadow: 2px 2px 5px #666666;
 	
 }
