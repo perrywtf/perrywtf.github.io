@@ -21,6 +21,7 @@ img {
 	color: #000000;
 	text-align: center;
 	font-family: helvetica;
+	
 }
 
 a {
@@ -279,6 +280,18 @@ a {
 
 /* ART PAGE */
 
+#artwrapper {
+	display: inline-flex;
+	position: absolute;
+	margin-left: 100px;
+	margin-right: 100px;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	overflow: hidden;
+}
+
 #backbutton {
 	position: absolute;
 	display:none;
@@ -287,14 +300,11 @@ a {
 
 	/* ART-GALLERIES */
 
-#containgalleries {
-	overflow-y: hidden;
-}	
-	
+
 #flickrembed {
 	float: left;
-	height: 700px;
-	width: 1000px;
+	height: 1200px;
+	width: 1100px;
 	margin-top: 20%;
 
 }
@@ -352,6 +362,7 @@ a {
 	background-repeat: no-repeat;
 	background-size: 290px;
 	box-shadow: 2px 2px 5px #666666;
+	cursor: pointer;
 	
 }
 
@@ -376,6 +387,7 @@ a {
 	background-repeat: no-repeat;
 	background-size: 290px;
 	box-shadow: 2px 2px 5px #666666;
+	cursor: pointer;
 	
 }
 
@@ -400,6 +412,7 @@ a {
 	background-repeat: no-repeat;
 	background-size: 290px;
 	box-shadow: 2px 2px 5px #666666;
+	cursor: pointer;
 	
 }
 
@@ -417,12 +430,13 @@ a {
 	position: relative;
 	left: 0;
 	right: 0;
-	top: 0%;
-	bottom: 0%;
+	padding-top: 100px;
+	padding-bottom: 80px;
+	margin-top: 0%;
 	font-size: 100px;
 	font-weight: bold;
 	color: #FFFFFF;
-	opacity: 0.5;
+	opacity: 0;
 	transition: opacity 0.5 ease-out;
 	-moz-transition: opacity .5s ease-out;
     -webkit-transition: opacity .5s ease-out;
@@ -549,3 +563,5 @@ a {
 .aboutcontact:hover {
 	opacity: 1;
 }
+
+

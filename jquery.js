@@ -55,7 +55,7 @@ var navcursor = function(event) { // TESTING TO MAKE BUTTON CURSOR DEFAULT
 //Start of Gallery Fade.	
 	
 	$(".yearbox1").click(function(e){    
-		$("#containalbums, #year1").fadeOut("slow", function(){
+		$("#containalbums, #year1").fadeOut("fast", function(){
 			$("#year1album, #backbutton").fadeIn("slow");
 		});
 	});
@@ -69,13 +69,13 @@ var navcursor = function(event) { // TESTING TO MAKE BUTTON CURSOR DEFAULT
 //YEAR 1 END
 
 	$(".yearbox2").click(function(e){    
-		$("#containalbums, #year2").fadeOut("slow", function(){
+		$("#containalbums, #year2").fadeOut("fast", function(){
 			$("#year2album, #backbutton").fadeIn("slow");
 		});
 	});
 
 	$("#backbutton").click(function(e){    
-		$("#year2album, #backbutton").fadeOut("slow", function(){
+		$("#year2album, #backbutton").fadeOut("fast", function(){
 			$("#containalbums, #year2").fadeIn("slow");
 		});
 	});
@@ -83,13 +83,13 @@ var navcursor = function(event) { // TESTING TO MAKE BUTTON CURSOR DEFAULT
 // YEAR 2 END
 
 	$(".yearbox3").click(function(e){    
-		$("#containalbums, #year3").fadeOut("slow", function(){
+		$("#containalbums, #year3").fadeOut("fast", function(){
 			$("#year3album, #backbutton").fadeIn("slow");
 		});
 	});
 
 	$("#backbutton").click(function(e){    
-		$("#year3album, #backbutton").fadeOut("slow", function(){
+		$("#year3album, #backbutton").fadeOut("fast", function(){
 			$("#containalbums, #year3").fadeIn("slow");
 		});
 	});
