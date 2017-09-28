@@ -42,11 +42,13 @@ var navcursor = function(event) { // TESTING TO MAKE BUTTON CURSOR DEFAULT
 		button1.className = button1.className ? "" : "fade";
 		button2.className = button2.className ? "" : "fade";
 		button3.className = button3.className ? "" : "fade";
+		button4.className = button4.className ? "" : "fade";
 		}
 
 	$("#button1").click(unclickable);
 	$("#button2").click(unclickable);
 	$("#button3").click(unclickable);
+	$("#button4").click(unclickable);
 	
 	// $("#button1").mouseover(navdefaultcursor); TESTING TO MAKE BUTTON CURSOR DEFAULT
 
@@ -106,7 +108,7 @@ $("#albumcontainer1").hover(function(){
 
 
 $( "#albumcontainer1" ).hover(function() {
-		$( "#buttons1" ).slideToggle( "slow", function() {
+		$( "#buttons1" ).slideToggle( "fast", function() {
   });
 });
 	

@@ -3,7 +3,6 @@
 body {
 	display:none;	
 	background-color: #F4F2FF;
-	overflow-y: hidden;
 	resize: both;
 }	
 
@@ -31,51 +30,63 @@ a {
 
 /* NAV BAR */
 
-div#containnav {
+#containnav {
   height: auto;
   width: 60px;
   margin: 10px;
   padding: 10px;
 }
 
-div#navbutton {
+#navbutton {
   height: 50px;
   width: 50px;
   cursor: pointer;
 }
 
-div#button1 {
+#button1 {
   opacity: 0;
   transition: opacity .5s; 
   height: 50px;
   width: 50px;
 }
 
-div#button1.fade {
+#button1.fade {
   opacity: 1;
 }
 
-div#button2 {
+#button2 {
   opacity: 0;
   transition: opacity 1s; 
   height: 50px;
   width: 50px;
 }
 
-div#button2.fade {
+#button2.fade {
   opacity: 1;
 }
 
-div#button3 {
+#button3 {
   opacity: 0;
   transition: opacity 1.5s; 
   height: 50px;
   width: 50px;
 }
 
-div#button3.fade {
+#button3.fade {
   opacity: 1;
 } 
+
+#button4 {
+  opacity: 0;
+  transition: opacity 1.75s; 
+  height: 50px;
+  width: 50px;
+}
+
+#button4.fade {
+  opacity: 1;
+} 
+
 
 .navbuttonmain {
 	height: 40px;
@@ -276,11 +287,16 @@ div#button3.fade {
 
 	/* ART-GALLERIES */
 
+#containgalleries {
+	overflow-y: hidden;
+}	
+	
 #flickrembed {
 	float: left;
-	height: 900px;
+	height: 700px;
 	width: 1000px;
 	margin-top: 20%;
+
 }
 
 @media only screen and (max-width: 700px)
@@ -432,6 +448,17 @@ div#button3.fade {
 	}
 }
 
+/* ABOUT */
+
+#aboutcontent {
+	width: 100%;
+	max-width: 800px;
+	background-color: #FFFFFF;
+	padding: 20px;
+	font-size: 20px;
+}
+
+
 /* FOOTER */
 
 #footer {
@@ -500,4 +527,25 @@ div#button3.fade {
 	height: 50px;
     float: left;
 	border-radius: 3px;
+}
+
+#acwrapper {
+	font-size: 12px;
+	font-family: helvetica;
+	margin: 10px;
+
+}
+
+.aboutcontact {	
+	opacity: .5;
+	transition: opacity 0.2 ease-out;
+	-moz-transition: opacity .2s ease-out;
+    -webkit-transition: opacity .2s ease-out;
+    -o-transition: opacity .2s ease-out;
+	color: #000000;
+
+}
+
+.aboutcontact:hover {
+	opacity: 1;
 }
