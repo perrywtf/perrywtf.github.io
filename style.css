@@ -2,7 +2,7 @@
 
 body {
 	display:none;	
-	background-color: #F4F2FF;
+	background-color: #FFFEF2;
 	resize: both;
 }	
 
@@ -127,7 +127,7 @@ a {
 	right: 0;
 	top: 0;
 	bottom: 0;
-	background-color: #FFFEF2;
+
 }
 
 #header {
@@ -320,7 +320,6 @@ a {
 	top: 0;
 	bottom: 0;
 	overflow: hidden;
-	background-color: #FFFEF2;
 }
 
 #backbutton {
