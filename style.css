@@ -154,13 +154,13 @@ a {
 	font-weight: bold;
 }
 
-@media only screen and (max-width: 700px)
+/* @media only screen and (max-width: 700px)
 {
 	#header
 	{
 		font-size:90px;
 	}
-}
+} */
 
 #maintitle {
 	display: block;
@@ -205,14 +205,14 @@ a {
 
 }
 
-@media only screen and (max-width: 700px)
+/* @media only screen and (max-width: 700px)
 {
 	.button
 	{
 		height: 120px;
 		width: 120px;
 	}
-}
+} */
 
 .buttonimg { 
 	margin: 50px;
@@ -226,7 +226,7 @@ a {
 	z-index: 2;
 }
 
-@media only screen and (max-width: 700px)
+/* @media only screen and (max-width: 700px)
 {
 	.buttonimg
 	{
@@ -234,7 +234,7 @@ a {
 		height: 100px;
 		width: 100px;
 	}
-}
+} */
 
 .buttontext { 
 
@@ -364,14 +364,14 @@ a {
 
 }
 
-@media only screen and (max-width: 700px)
+/* @media only screen and (max-width: 700px)
 {
 	#flickrembed
 	{
 		height: 300px;
 		width: 300px;
 	}
-}
+} */
 
 
 /* ART-BOXES */
@@ -409,14 +409,14 @@ a {
 	
 }
 
-@media only screen and (max-width: 700px)
+/* @media only screen and (max-width: 700px)
 {
 	.yearbox1
 	{
 		height: 120px;
 		width: 120px;
 	}
-}
+} */
 
 
 
@@ -436,14 +436,14 @@ a {
 	
 }
 
-@media only screen and (max-width: 700px)
+/* @media only screen and (max-width: 700px)
 {
 	.yearbox2
 	{
 		height: 120px;
 		width: 120px;
 	}
-}
+} */
 
 .yearbox3 {
 	width: 300px;
@@ -461,14 +461,14 @@ a {
 	
 }
 
-@media only screen and (max-width: 700px)
+/* @media only screen and (max-width: 700px)
 {
 	.yearbox3
 	{
 		height: 120px;
 		width: 120px;
 	}
-}
+} */
 
 #yearnumber {
 	display: block;
