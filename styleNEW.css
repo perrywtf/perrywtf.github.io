@@ -1,0 +1,105 @@
+/* BODY */
+
+body {
+	background: #000;
+	margin: 0;
+	padding: 0;
+}	
+
+a {
+	text-decoration: none;
+}
+
+h1 {
+	font-size: 100px;
+	margin-bottom: -70px;
+}
+
+h2 {
+	font-size: 70px;
+	margin-bottom: 0px;
+}
+
+#center {
+	display: block;
+	margin: auto;
+	height: auto;
+	width: auto;
+	color: #000000;
+	text-align: center;
+	font-family: helvetica;	
+}
+
+#wrapper {
+	position: relative;
+	color: #ffffff;
+	text-align: center;
+	font-family: helvetica;
+}
+
+#contentwrap {
+	padding-bottom: 100px;
+}
+
+/* MUSIC */
+
+#coverimg {
+	height: 500px;
+	width: 500px;
+}
+
+#links {
+	display: block;
+}
+
+.musicbuttonimg {
+	margin-left: 10px;
+	margin-right: 10px;
+	opacity: 0.75;
+	transition: opacity 0.2 ease-out;
+	-moz-transition: opacity .2s ease-out;
+    -webkit-transition: opacity .2s ease-out;
+    -o-transition: opacity .2s ease-out;
+}
+
+.musicbuttonimg:hover {
+	opacity: 1;
+}
+
+/* FOOTER */
+
+#footer {
+	display: inline-flex;
+	position: absolute;
+	left: 0;
+	right: 0;
+	height: 100px;
+}
+
+#footercontent {
+	display: block;
+	margin: auto;
+	height: auto;
+	width: auto;
+	color: #F2E1AC;
+	text-align: center;
+	font-family: helvetica;
+	padding-top: 50px;
+}
+
+#acwrapper {
+	font-size: 12px;
+	font-family: helvetica;
+	margin: 10px;
+
+}
+
+.aboutcontact {	
+
+	color: #f1e9cf;
+
+}
+
+.aboutcontact:hover {
+	color: #F2E1AC;
+}
