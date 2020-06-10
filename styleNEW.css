@@ -44,8 +44,8 @@ h2 {
 /* MUSIC */
 
 #coverimg {
-	height: 500px;
-	width: 500px;
+	height: 300px;
+	width: 300px;
 }
 
 #links {
@@ -84,7 +84,6 @@ h2 {
 	color: #F2E1AC;
 	text-align: center;
 	font-family: helvetica;
-	padding-top: 50px;
 }
 
 #acwrapper {
