@@ -4,6 +4,7 @@ body {
 	background: #000;
 	margin: 0;
 	padding: 0;
+
 }	
 
 a {
@@ -12,12 +13,14 @@ a {
 
 h1 {
 	font-size: 100px;
-	margin-bottom: -70px;
+	margin-bottom: -4%;
+	font-family: ArcaMajora3;
 }
 
 h2 {
 	font-size: 70px;
 	margin-bottom: 0px;
+	font-family: ArcaMajora3;
 }
 
 #center {
@@ -101,6 +104,12 @@ h2 {
 
 .aboutcontact:hover {
 	color: #F2E1AC;
+}
+
+
+@font-face {
+	font-family: ArcaMajora3;
+	src:url(ArcaMajora3-Bold.otf);
 }
 
 @media only screen and (max-width:600px)  { 
