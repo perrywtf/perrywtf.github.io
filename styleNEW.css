@@ -40,20 +40,44 @@ h2 {
 	font-family: helvetica;
 }
 
-#contentwrap {
-	padding-bottom: 100px;
-}
-
-/* MUSIC */
-
-#coverimg {
+#imgwrap {
+	position: relative;
 	height: 500px;
 	width: 500px;
+	margin: 0 auto;
+	background-image: url('https://i.imgur.com/wdE8umS.jpg');
+	background-size: 500px 500px;
 }
 
-#links {
-	display: block;
+#teaserwrap {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity .2s, visibility .2s;
+  cursor: pointer;
 }
+
+#teasertext {
+	margin-top: 40%;
+	opacity: 1;
+}
+
+
+#imgwrap:hover #teaserwrap {
+  visibility: visible;
+  opacity: 1;
+  background-image:  url('https://i.imgur.com/6So5uJZ.jpg');
+  background-size: 500px 500px;
+  
+
+}
+
+
+
 
 .musicbuttonimg {
 	margin-left: 10px;
@@ -69,24 +93,25 @@ h2 {
 	opacity: 1;
 }
 
-#coverimg:hover {
-	opacity: 1;
-	filter: blur(2px);
+#links {
+	display: block;
 }
 
-#coverimg:visited {
-	filter: blur(0px);
-}
+
+
 
 
 /* FOOTER */
+
+
+
 
 #footer {
 	display: inline-flex;
 	position: absolute;
 	left: 0;
 	right: 0;
-	height: 100px;
+	height: 70px;
 }
 
 #footercontent {
