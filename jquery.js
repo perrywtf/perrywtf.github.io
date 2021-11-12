@@ -123,6 +123,16 @@ $( "#albumcontainer2" ).hover(function() {
 		$( "#buttons2" ).slideToggle( "fast", function() {
   });
 });
+
+function randomlinks() {
+    var myrandom = Math.round(Math.random() * 2)
+    var links = new Array()
+    links[0] = "https://www.instagram.com/p/CWCeVWxBmYC/"
+    links[1] = "https://www.instagram.com/p/CV1SHEphSB1/"
+    links[2] = "https://www.instagram.com/p/CVokhk3hSNi/"
+
+    window.location = links[myrandom]
+};
 	
 });
 

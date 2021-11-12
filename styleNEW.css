@@ -69,6 +69,10 @@ h2 {
 	opacity: 1;
 }
 
+#coverimg:hover {
+	opacity: 1;
+	filter: blur(2px);
+}
 /* FOOTER */
 
 #footer {
