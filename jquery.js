@@ -130,6 +130,7 @@ function randomlinks() {
     links[0] = "https://www.instagram.com/p/CWCeVWxBmYC/"
     links[1] = "https://www.instagram.com/p/CV1SHEphSB1/"
     links[2] = "https://www.instagram.com/p/CVokhk3hSNi/"
+	links[3] = "https://www.instagram.com/reel/CWT3taiBdU3/"
 
     window.location = links[myrandom]
 };
