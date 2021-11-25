@@ -147,11 +147,16 @@ h2 {
 	src:url(ArcaMajora3-Bold.otf);
 }
 
-@media only screen and (max-width:600px)  { 
+@media only screen and (max-width:667px)  { 
 
 	h1 {
 		font-size: 50px;
 		margin-bottom: -20px;
+	}
+	
+		#imgwrap {
+		height: 200px;
+		width: 200px;
 	}
 	
 	h2 {
@@ -159,10 +164,7 @@ h2 {
 		margin-bottom: 0px;
 	}
 	
-	#coverimg {
-		height: 200px;
-		width: 200px;
-	}
+}
 	
 	.musicbuttonimg {
 		height: 35px;
@@ -172,6 +174,14 @@ h2 {
 	#footer {
 		height: 50px;
 	}
+	
+@media only screen and (max-width:533px)  {
+
+	#imgwrap {
+		height: 100px;
+		width: 100px;
+	}
+}
 
 /* smartphones, iPhone, portrait 480x320 phones */ 
 }
