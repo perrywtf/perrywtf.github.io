@@ -95,8 +95,8 @@ h2 {
 
 #links {
 	display: block;
-}
 
+}
 
 
 
@@ -147,24 +147,6 @@ h2 {
 	src:url(ArcaMajora3-Bold.otf);
 }
 
-@media only screen and (max-width:667px)  { 
-
-	h1 {
-		font-size: 50px;
-		margin-bottom: -20px;
-	}
-	
-		#imgwrap {
-		height: 200px;
-		width: 200px;
-	}
-	
-	h2 {
-		font-size: 20px;
-		margin-bottom: 0px;
-	}
-	
-}
 	
 	.musicbuttonimg {
 		height: 35px;
@@ -175,11 +157,46 @@ h2 {
 		height: 50px;
 	}
 	
+	
+	
+/* MOBILE SITES */	
+
+
+	
+@media only screen and (max-width:667px)  { 
+
+	h1 {
+		font-size: 50px;
+		margin-bottom: -20px;
+	}
+	
+	#imgwrap {
+		height: 250px;
+		width: 250px;	
+		background-size: 500px 500px;
+	}
+	
+	#imgwrap:hover #teaserwrap {
+		background-size: 250px 250px;
+	}
+	
+	h2 {
+		font-size: 20px;
+		margin-bottom: 0px;
+	}
+	
+}
+	
 @media only screen and (max-width:533px)  {
 
 	#imgwrap {
-		height: 100px;
-		width: 100px;
+		height: 250px;
+		width: 250px;
+		background-size: 250px 250px;
+	}
+	
+		#imgwrap:hover #teaserwrap {
+		background-size: 250px 250px;
 	}
 }
 
